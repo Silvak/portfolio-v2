@@ -10,7 +10,7 @@ function App() {
   const navigation = useNavigation();
 
   //dark mode state & function
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   function toggleDarkMode() {
     setDarkMode((prevDarkMode) => !prevDarkMode);
   }
